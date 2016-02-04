@@ -13,11 +13,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,149 +29,518 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73271813-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 </head>
 
-<body>
-
-    <div class="brand">Hidden Oasis</div>
-    <div class="address-bar">Landscape &amp; Design</div>
+<body id="page-top" class="index" style="">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Hidden Oasis</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Hidden Oasis</a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <li class="">
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
-                    <li>
-                        <a href="services.html">Services</a>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="active">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
-    <div class="container">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Hidden Oasis</div>
+                <div class="intro-lead-in">Landscape &amp; Design</div>
+            </div>
+        </div>
+    </header>
 
-        <div class="row">
-            <div class="box">
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
-                        </ol>
+                    <h2 class="section-heading">Services</h2>
+                    
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-leaf fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Landscape</h4>
+                    <p class="text-muted">We plant the right material to accent your site and concurrently keep areas clean and modern. Beds are kept sharp with clean, hand dug edging. We offer maintenance to clients who wish to have their landscape detailed throughout the year. Our designs take into consideration the plants' needs concerning sunlight, water, size, and more.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Hardscape</h4>
+                    <p class="text-muted">Our portfolio of hardscapes includes retaining walls, pavers, fireplaces, and outdoor kitchens out of natural and man-made stone. With a sharp eye for aesthetics, our designs are functional and unique. Our kitchens and fireplaces are designed and built by us from the ground up. We love using natural stone for our patios and veneer when possible.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Lighting</h4>
+                    <p class="text-muted">We implement lighting to many of our designs not only for appearance but for safety as well. Lighting is an important aspect that will allow you to enjoy your oasis at night.</p>
+                </div>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
-                            </div>
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+
+            </div>
+<div class="row text-center">
+                                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-tint fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Water Features</h4>
+                    <p class="text-muted">Small waterfalls and ponds can add great ambiance to most any site. The sound of water is very relaxing and enjoyable. Whether its a small pond in the front yard, or a winding stream and waterfall in the back, Hidden Oasis can accent your property with pristine water features.</p>
+                </div>
+                
+                
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Hidden Oasis provides many options to our clients, here are some examples of previous work we have finished.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
+                        <img src="img/portfolio/travertine.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Real Stone Pavers</h4>
+                        <p class="text-muted">Travertine</p>
                     </div>
-                    <h2 class="brand-before">
-                        <small>Welcome to</small>
-                    </h2>
-                    <h1 class="brand-name">Hidden Oasis</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small><strong>Landscape &amp; Design</strong>
-                        </small>
-                    </h2>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/wall.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Retaining Walls</h4>
+                        <p class="text-muted">Tumbled Front-Lock Wall</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pergola.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Pergolas</h4>
+                        <p class="text-muted">Two-Tiered Roof</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kitchen.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Outdoor Kitchen</h4>
+                        <p class="text-muted">Grills, Refridgerators, and more!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/steps.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Natural Stone Steps</h4>
+                        <p class="text-muted">We have acces to many types of stone</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lighting.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Lighting</h4>
+                        <p class="text-muted">Enjoy your oasis at night!</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="row">
-            <div class="box">
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Hidden Oasis promises to design one-of-a-kind projects catered to your needs. From the material used to the methods by which they are installed, your oasis will be crafted with the utmost attention to detail. If you enjoy natural stone, beautiful water features, and solid wood structures, you have found the right company.</h3>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Enjoy            <strong>your space  </strong>
-                    </h2>
-                    <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
-                </br>
-                    <p>We design and build functional outdoor spaces for our clients. All of our designs are original and cater to the needs and preferences of our customers. With over 30 years of experience, we have the know-how to make your landscape a stunning production.</p>
-                    
-                    
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/grass.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1983-2005</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">In 1983, Joel Geist started “Classic Touch Landscaping.” Through 2005, he grew the company from mowing apartment complexes to designing and building vast landscape, hardscape, water features, and wood structures. Joel's son, Chad Geist, grew up working beside his father when not in school.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/water.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2006-2015</h4>
+                                    <h4 class="subheading">Classic Design</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">After rebranding to “Classic Design Landscaping,” Joel worked mainly with his son, Chad Geist. Together they completed various projects and designs. Chad went to college and ventured into a career in business. He would work with his father when time allowed.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/chimney.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2016-Today</h4>
+                                    <h4 class="subheading">Hidden Oasis</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Chad, wanting to work for himself, decided to start a landscaping company under his father's guidance. Hidden Oasis is the culmination of over 30 years of work in the landscaping industry. Joel and Chad work as a team designing and building for clients in Dayton, Columbus, and Northern Cincinnati areas.</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        
+                    </ul>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="row">
-            <div class="box">
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                
+                
+                
+                
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+                        <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    
+                </div>
+            </div>
+
+
+                    
+
+            <div class="row">
                 <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Escape to your                         <strong>Hidden Oasis</strong>
-                    </h2>
-                    <hr>
-                    <p>Life. Work. Stress. Everybody experiences periods of fatigue. Many also desire to retreat to a refuge and get away from the daily difficulties life presents. With little time to take vacation, options are limited. That is where we step in.</p>
-                    <p>An oasis is an isolated area in the desert, where people come to enjoy the vegetation surrounding a water source. They would take rest after difficult travels through the harsh desert. Our goal is to create that same feeling. Come back to your own personal, exclusive oasis that brings comfort after a weary day.</p>
+                    <form name="sentMessage" id="contactForm" novalidate="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-
-    </div>
-    <!-- /.container -->
+    </section>
 
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright © Hidden Oasis 2016</p>
+                <div class="col-md-4">
+  <span class="copyright">Phone: 937.903.5688  
+  <br>
+</span>
+<span class="copyright">Email: chad@hiddenoasis.co</span>
+<br>
+                    <span class="copyright">Copyright © Hidden Oasis LLC 2016</span>
                 </div>
+                <div class="col-md-4">
+                    
+                </div>
+                
             </div>
         </div>
     </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Natural Stone</h2>
+                            <p class="item-intro text-muted">Travertine is great for outdoor use, especially around pools!</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/travertinepop.jpg" alt="">
+                            <p>Available in pavers or tile, travetine contains many beautiful colors and natural movement. While we still build traditional concrete paver patios, we almost always recommend travertine. The stone cannot be fully appreciated until seen in person. We have never had a client regret using travertine over traditional pavers!</p>
+                            <p>
+                                <strong>Not the color you want?   </strong>Travertine comes in many varations of color and details.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Retaining Walls</h2>
+                            <p class="item-intro text-muted">Not only are retaining wall beautiful, they allow for intricate designs, raised beds, and function as a barrier to the earth behind them.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/wall.jpg" alt="">
+                            <p>Retaining walls serve to "retain" the earth behind them. Their interlocking structure allows them to be built high while still serving their function. As seen in this picture, walls can be "cut" into hills to elegantly change the site.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Pergolas</h2>
+                            <p class="item-intro text-muted">Wooden structures provide great cover for patios and outdoor kitchens. We have access to large timbers necessary to build such sturdy edifices.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/pergola2.jpg" alt="">
+                            <p>Pergolas can be designed to fit different needs and designs. Some may be just large enough to cover a small kitchen while others will provide shelter for large patios. Once again, our designs are custom-made to your needs.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Outdoor Kitchens</h2>
+                            <p class="item-intro text-muted">Outdooor kitchens are perfect for entertaining friends and family. Convenience meets aesthetics with the many cabinet and appliance options. Wow your guests the next time you host a gathering!</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/kitchen.jpg" alt="">
+                            <p>Outdoor kitchens truly make a statement. Their practicality is only exceeded by their style. Real stone veneer or man-made stone may be used to cover the outter wall of the kitchen. Cabinets and drawers are built in to the structure. Different size grills and sinks are available to meet our clients' preferences. We also love to add water features, one of which may be seen on the left side of this picture.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Natural Stone Steps</h2>
+                            <p class="item-intro text-muted">Natural stone steps complement many of our designs. The worn and natural look complements the tumbled pavers and walls.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/steps.jpg" alt="">
+                            <p>Alongside natural steps, round river rock makes for a great alternative look to traditional dirt and mulch beds. We also design natural stone into our plans to help control water drainage.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Lighting</h2>
+                            <p class="item-intro text-muted">Lighting options are available for all manner of designs. However, with outdoor kitchens and pergolas, they can simply amaze.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/lighting.jpg" alt="">
+                            <p>Lighting provides safety as well as interesting atmospheres. From seeing steps and paths better, to finding your way around the kitchen, our lighting is designed to dazzle and delight!</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -176,13 +548,17 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 
 
